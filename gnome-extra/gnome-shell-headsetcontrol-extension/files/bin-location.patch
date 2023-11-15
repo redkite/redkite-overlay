@@ -1,0 +1,13 @@
+# patch the default binary location to the dependency's default
+
+--- a/HeadsetControl@lauinger-clan.de/schemas/org.gnome.shell.extensions.HeadsetControl.gschema.xml	2023-09-09 09:17:30.000000000 +0200
++++ b/HeadsetControl@lauinger-clan.de/schemas/org.gnome.shell.extensions.HeadsetControl.gschema.xml	2023-11-15 11:38:34.391428197 +0100
+@@ -2,7 +2,7 @@
+   <schema id="org.gnome.shell.extensions.HeadsetControl"
+       path="/org/gnome/shell/extensions/HeadsetControl/">
+     <key name="headsetcontrol-executable" type="s">
+-      <default>'/usr/local/bin/headsetcontrol'</default>
++      <default>'/usr/bin/headsetcontrol'</default>
+       <summary>path to executable</summary>
+       <description>file and path of headsetcontrol executable</description>
+     </key>

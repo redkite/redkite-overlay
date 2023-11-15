@@ -20,6 +20,10 @@ app-eselect/eselect-gnome-shell-extensions
 "
 BDEPEND=""
 
+PATCHES=(
+	"${FILESDIR}"/bin-location.patch
+)
+
 S="${WORKDIR}/gnome-shell-extension-HeadsetControl-${PV}"
 extension_uuid="HeadsetControl@lauinger-clan.de"
 
