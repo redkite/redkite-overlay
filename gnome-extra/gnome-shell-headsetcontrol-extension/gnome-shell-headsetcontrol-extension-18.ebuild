@@ -15,7 +15,7 @@ KEYWORDS="~amd64"
 DEPEND=""
 RDEPEND="
 app-misc/headsetcontrol
-=gnome-base/gnome-shell-44
+=gnome-base/gnome-shell-44*
 app-eselect/eselect-gnome-shell-extensions
 "
 BDEPEND=""
