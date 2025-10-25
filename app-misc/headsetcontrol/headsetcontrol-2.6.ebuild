@@ -7,8 +7,7 @@ inherit cmake git-r3 udev
 
 DESCRIPTION="Adds loopback and LED control to headsets"
 HOMEPAGE="https://github.com/Sapd/HeadsetControl"
-SRC_URI=""
-EGIT_REPO_URI="https://github.com/Sapd/HeadsetControl"
+SRC_URI="https://github.com/Sapd/HeadsetControl/archive/refs/tags/${PV}.tar.gz"
 
 if [[ ${PV} = 9999 ]] ; then
 	EGIT_COMMIT=""
@@ -22,7 +21,7 @@ SLOT="0"
 IUSE="udev"
 
 DEPEND="
-	dev-util/cmake
+	dev-build/cmake
 	dev-libs/hidapi
 	udev? ( virtual/udev )
 "
