@@ -21,7 +21,7 @@ app-eselect/eselect-gnome-shell-extensions
 BDEPEND=""
 
 PATCHES=(
-	"${FILESDIR}"/bin-location.patch
+	"${FILESDIR}"/bin-location-post-v48.3.patch
 )
 
 S="${WORKDIR}/gnome-shell-extension-HeadsetControl-${PV}"
