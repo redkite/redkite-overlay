@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit cmake git-r3 udev
+inherit cmake udev
 
 DESCRIPTION="Adds loopback and LED control to headsets"
 HOMEPAGE="https://github.com/Sapd/HeadsetControl"
