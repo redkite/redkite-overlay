@@ -22,7 +22,7 @@ SLOT="0"
 IUSE="udev"
 
 DEPEND="
-	dev-util/cmake
+	dev-build/cmake
 	dev-libs/hidapi
 	udev? ( virtual/udev )
 "
