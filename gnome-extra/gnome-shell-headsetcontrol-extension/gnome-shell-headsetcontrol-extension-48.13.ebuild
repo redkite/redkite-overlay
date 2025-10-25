@@ -14,7 +14,7 @@ KEYWORDS="~amd64"
 
 DEPEND=""
 RDEPEND="
-app-misc/headsetcontrol
+media-sound/headsetcontrol
 =gnome-base/gnome-shell-48*
 app-eselect/eselect-gnome-shell-extensions
 "
